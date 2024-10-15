@@ -1,4 +1,4 @@
-public class Customer extends Person{
+public class Customer extends Person {
     private int cardNumber;
 
     public Customer(String name, int age, int phoneNumber, int cardNumber) {
@@ -8,8 +8,6 @@ public class Customer extends Person{
 
     @Override
     public String toString() {
-        return "Customer{" +
-                "cardNumber=" + cardNumber +
-                '}';
+        return super.toString() + ", номер карты: " + cardNumber;
     }
 }

@@ -1,3 +1,6 @@
+// непосредственный предок у класса может быть только один
+// а реализовывать интерфейсов он может сколько угодно
+
 
 
 public class PrintServiceForInvestor implements PrintService {

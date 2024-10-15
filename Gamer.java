@@ -8,8 +8,6 @@ public class Gamer extends Person{
 
     @Override
     public String toString() {
-        return "Gamer{" +
-                "platform='" + platform + '\'' +
-                '}';
+        return super.toString() + ", платформа: " + platform;
     }
 }
